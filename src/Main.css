@@ -1,0 +1,44 @@
+.background-img {
+    background-image: url('https://media.istockphoto.com/id/1458427467/photo/abstract-modern-overlap-dark-blue-curve-layer-background-with-line-and-shadow-decoration.webp?b=1&s=170667a&w=0&k=20&c=o19TBFbRp_LKhoWdhxPgJiZuzp7eV_DZq5Dg1_i9Nwk=');
+    height: 81.5vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.more-info h1 {
+    color: white;
+    font-size: 70px;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+}
+
+.more-info p {
+    color: white;
+    font-size: 20px;
+    margin-left: 7rem;
+}
+
+.more-info .learn-btn {
+    height: 40px;
+    width: 7rem;
+    background-color: rgb(253, 253, 72);
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 7rem;
+}
+
+.learn-btn:hover {
+    background-color: yellow;
+}
